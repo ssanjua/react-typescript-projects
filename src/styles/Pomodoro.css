@@ -1,0 +1,94 @@
+.clock {
+  max-width: 450px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display > div { /* Contenedor de botones */
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 10px; /* Espacio entre botones */
+}
+
+.setters {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-around;
+  background-color: #fecd23;
+  border-radius: 20px 20px 0 0;
+  border: solid 5px rgb(82, 82, 82);
+  box-shadow: 20px 20px 0px 0px rgba(0,0,0,0.75);
+}
+
+button {
+  margin: 12px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #cf0638;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 0px rgba(46,46,46,1);
+}
+
+h4 {
+  background-color: rgb(41, 41, 41);
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 8px;
+  border: solid 2px white;
+  box-shadow: 5px 5px 0px 0px rgba(194,194,194,1);
+}
+
+span {
+  background-color: #0a6789;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 10px 20px; 
+  width: 40px; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  border: solid 2px white;
+  box-shadow: 5px 5px 0px 0px rgba(46,46,46,1);
+}
+
+.display {
+  width: 100%;
+  padding: 20px; /* Reducido de 120px a 30px a los lados */
+  background-color: #fa6632;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+  border: solid 5px rgb(82, 82, 82);
+  box-shadow: 20px 20px 0px 0px rgba(0,0,0,0.75);
+}
+
+#time-left {
+  background-color: #555555;
+  font-size: 16px; /* Aumenta el tamaño de fuente si es necesario */
+  margin-top: 15px;
+  border-radius: 10px;
+  min-width: 80px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: solid 2px white;
+  box-shadow: 5px 5px 0px 0px rgba(46,46,46,1);
+}
+
+#start_stop {
+  background-color: #0a6789;
+}
+
+#reset {
+  background-color: #0a996f;
+}
